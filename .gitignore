@@ -5,5 +5,4 @@ Conf.php
 myLogs/
 totumTmpfiles/
 .idea
-/vendor/
 CalculateExtensions.php

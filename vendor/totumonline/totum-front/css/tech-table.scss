@@ -1,0 +1,25 @@
+@import 'vars';
+
+.tech-table {
+  position: relative;
+
+  .panel-buttons button{
+      width: 100%;
+      margin-top: 3px;
+      padding: 3px;
+      margin-bottom: 5px;
+      z-index: 1000;
+  }
+  .form-control {
+    height: 28px;
+    font-size: 12px;
+  }
+  .select-btn {
+    margin-top: -14px;
+    .bootstrap-select > button {
+      visibility: hidden;
+      position: absolute;
+      top: -26px;
+    }
+  }
+}
